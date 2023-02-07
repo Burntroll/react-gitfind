@@ -20,38 +20,9 @@
   margin-right: 10rem;
 }
 
-.profile__box {
-  display: flex;
-  margin: 2rem 1.25rem 2rem 0;
-}
-
-.profile {
-  border-radius: 50%;
-  height: 10rem;
-  border: 2px solid #999999;
-  margin-right: 2rem;
-}
-
-.profile:hover {
-  border-color: #fefefe;
-  transition: .15s;
-}
-
-.profile__box h3 {
-  color: #999999;
-  font-size: 1.25rem;
-}
-
-.profile__box span {
-  display: block;
-  color: #999999;
-  font-size: 1rem;
-  margin: 0;
-}
-
-.profile__box p {
-  display: block;
-  color: #999999;
-  font-size: 0.85rem;
-  margin-top: 1.5rem;
+.repository {
+  font-size: 2rem;
+  color: #fefefe;
+  margin: .75rem 0;
+  text-align: center;
 }
