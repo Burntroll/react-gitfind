@@ -8,6 +8,5 @@ body {
 }
 
 hr {
-  background-color: rgba(229, 229, 229, 8.2);
-  border: 1px solid rgba(229, 229, 229, 8.2);
+  border: 1px solid #999999;
 }
