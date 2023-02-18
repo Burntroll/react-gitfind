@@ -13,6 +13,78 @@
   top: 3em;
 }
 
+/* SEARCH STYLES*/
+
+input {
+  border-radius: 20px;
+  min-width: 250px;
+  width: 50%;
+  margin-right: 1em;
+  border: 1px solid #999999;
+  background: transparent;
+  color: #fefefe;
+  font-size: 1.2em;
+  padding: 10px;
+}
+
+button {
+  border-radius: 20px;
+  min-width: 7em;
+  border: 1px solid #999999;
+  background: #2D333B;
+  color: #999999;
+  font-weight: 400;
+  font-size: 1.2em;
+  padding: 10px;
+}
+
+button:hover {
+  color: #fefefe;
+  transition: .15s;
+}
+
+button:active {
+  position: relative;
+  bottom: 1px;
+}
+
+/* PROFILE STYLES */
+.profile__box {
+  display: flex;
+  margin: 2rem 1.25rem 2rem 0;
+}
+
+.profile {
+  border-radius: 50%;
+  height: 10rem;
+  border: 2px solid #999999;
+  margin-right: 2rem;
+}
+
+.profile:hover {
+  border-color: #fefefe;
+  transition: .15s;
+}
+
+.profile__box h3 {
+  color: #999999;
+  font-size: 1.25rem;
+}
+
+.profile__box span {
+  display: block;
+  color: #999999;
+  font-size: 1rem;
+  margin: 0;
+}
+
+.profile__box p {
+  display: block;
+  color: #999999;
+  font-size: 0.85rem;
+  margin-top: 1.5rem;
+}
+
 .info {
   color: #fefefe;
   width: 53%;
